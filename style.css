@@ -1,0 +1,68 @@
+/* Pradeep Kumar Panaganti - Portfolio Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+nav {
+    margin: 0.5rem 0;
+}
+
+nav:first-of-type {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+nav:nth-of-type(2) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #667eea;
+    transform: translateY(-2px);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0.5rem auto;
+        width: 200px;
+    }
+    
+    nav:first-of-type {
+        font-size: 1.5rem;
+    }
+}
